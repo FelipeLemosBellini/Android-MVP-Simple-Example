@@ -64,7 +64,6 @@ public class MainActivity extends AppCompatActivity implements Contract.View {
 
     @Override
     protected void onDestroy() {
-        presenter.detach();
         super.onDestroy();
     }
 }

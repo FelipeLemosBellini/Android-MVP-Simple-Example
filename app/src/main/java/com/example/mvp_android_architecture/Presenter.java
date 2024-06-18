@@ -24,9 +24,4 @@ public class Presenter implements Contract.Presenter {
     public void attach(Contract.View view) {
         this._view = view;
     }
-
-    @Override
-    public void detach() {
-        this._view = null;
-    }
 }

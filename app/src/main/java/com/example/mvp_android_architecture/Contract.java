@@ -9,10 +9,8 @@ public class Contract {
     interface Presenter {
         void incrementCounter();
         void decrementCounter();
-
         void attach(View view);
 
-        void detach();
     }
 
 
